@@ -18,7 +18,7 @@ def heun(f,tt,N):
     for i in range(N): 
         yy.append(yy[i]+h*(f(tt[i],yy[i])+f(tt[i+1],yy[i]+h*f(tt[i],yy[i])))) 
     return yy 
-# INITIALISATION foireux
+# INITIALISATION foireux qdf
 N =3  
 t0 = 0.31 
 y0 = 1.32 
